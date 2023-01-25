@@ -6,19 +6,18 @@ It is made in Java, and from v1.1.1, exe files are also available.
 USAGE: BetterCoderJ-1.1.0.exe [<OPTION>[-<VALUE>]]
 ### Examples:
   #### Compile all files in 'a' directory.
-    BetterCoderJ-1.1.0.exe c-a
+    ```BetterCoderJ-1.1.0.exe c-a```
   #### Compile all files in 'a' directory,
   #### Compress the files in directory 'a' into 'abc.jar'.
-    BetterCoderJ-1.1.0.exe i-a o-abc.jar c-a j
+    ```BetterCoderJ-1.1.0.exe i-a o-abc.jar c-a j```
   #### Run JAR archive file with name 'abc.jar'.
-    BetterCoderJ-1.1.0.exe r-abc.jar
-  #### Compress the files in directory 'a' into 'abcd.jar',
-  #### And run the output file.
-    BetterCoderJ-1.1.0.exe i-a o-abcd.jar j r-*o
+    ```BetterCoderJ-1.1.0.exe r-abc.jar```
+  #### Compress the files in directory 'a' into 'abcd.jar', And run the output file.
+    ```BetterCoderJ-1.1.0.exe i-a o-abcd.jar j r-*o```
   #### Set JAVA_HOME folder location to %JAVA_HOME%.
-    BetterCoderJ-1.1.0.exe jh -"%JAVA_HOME%"
+    ```BetterCoderJ-1.1.0.exe jh -"%JAVA_HOME%"```
 
-Options:
+### Options:
   #### jh-<loc>
     Set the location where Java is installed.
   #### i-<dir>
