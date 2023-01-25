@@ -3,7 +3,7 @@ BetterCoderJ is a program that helps you compile Java more easily, faster, and c
 It is made in Java, and from v1.1.1, exe files are also available.
 
 # Then... How to use?
-USAGE: BetterCoderJ-1.1.0.exe [<OPTION>[-<VALUE>]]
+USAGE: BetterCoderJ-1.1.0.exe \[\<OPTION\>\[\-\<VALUE\>\]\]
 ### Examples:
   #### Compile all files in 'a' directory.
     BetterCoderJ-1.1.0.exe c-a
